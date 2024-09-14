@@ -16,3 +16,6 @@ Movie-Recommendation-System/ ├── data/ │ ├── movies.dat │ ├─
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+
+
+https://movies-recommendations-netflix.streamlit.app/
