@@ -4,7 +4,7 @@ import streamlit as st
 from recommender import get_movie_recommendations
 
 # Load Data
-movies_df = pd.read_csv('../data/movies.csv')
+movies_df = pd.read_csv('data/movies.csv')
 
 # App Title
 st.title('Enhanced Movie Recommendation System')
