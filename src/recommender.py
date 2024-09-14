@@ -3,10 +3,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
 # Load Data
-movies = pd.read_csv('../data/movies.csv')
-ratings = pd.read_csv('../data/ratings.csv')
-tags = pd.read_csv('../data/tags.csv')
-links = pd.read_csv('../data/links.csv')
+movies = pd.read_csv('data/movies.csv')
+ratings = pd.read_csv('data/ratings.csv')
+tags = pd.read_csv('data/tags.csv')
+links = pd.read_csv('data/links.csv')
 
 # Enhanced content-based filtering
 def enhanced_content_recommender(genres, keywords, movies_df, tags_df, ratings_df, movie_title=None):
